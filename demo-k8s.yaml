@@ -1,0 +1,37 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ova
+  annotations:
+    kubernetes.io/description: |
+      This Kubernetes Job configuration demonstrates how to run the
+      [onion-vanity-address](https://github.com/offset/onion-vanity-address)
+      tool in a distributed manner across multiple pods.
+spec:
+  parallelism: 10 # 👈 Number of pods to run in parallel. See also resource limits below
+  activeDeadlineSeconds: 3600 # Job must complete within 1 hour
+  ttlSecondsAfterFinished: 86400 # Job will be deleted after 1 day
+  # Indexed Job with successPolicy to complete the Job when at least one pod succeeds
+  completionMode: Indexed
+  completions: 999999
+  successPolicy:
+    rules:
+      - succeededCount: 1
+  template:
+    spec:
+      restartPolicy: Never
+      terminationGracePeriodSeconds: 0
+      containers:
+        - name: ova
+          image: ghcr.io/offset/onion-vanity-address:latest
+          args:
+            - --from
+            - PT0gZWQyNTUxOXYxLXB1YmxpYzogdHlwZTAgPT0AAACUwRne+J2A35is85MvD0Clj2SfEk52LqdHH80VuVlg+Q== # 👈 Starting public key, use your own ☣️
+            - lukovitsa # 👈 Vanity prefix to find
+          resources:
+            requests:
+              cpu: 7 # 👈 Set pod size
+              memory: 256Mi
+            limits: # Set equal to requests
+              cpu: 7
+              memory: 256Mi
