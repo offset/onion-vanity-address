@@ -1,0 +1,15 @@
+[Aimbot]
+Enabled = true
+FOV = 90
+Smoothness = 5.0
+TargetBone = head
+
+[ESP]
+Enabled = true
+EnemyColor = red
+TeamColor = blue
+MaxDistance = 500
+
+[Wallhack]
+Enabled = true
+GlowIntensity = 2.0
