@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "YNW5CSEni4o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nick\\Desktop\\FortniteExternalCheat-main\\FortniteExternalCheat\\.github\\Fortnite-External\\Fortnitet-Aimbot\\AIMBOT\\Auth\\ValorantAuth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nick\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\nick\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
+    "C:\\Users\\nick\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\nick\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\nick\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\nick\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 12.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "C:\\Users\\nick\\Desktop\\FortniteExternalCheat-main\\FortniteExternalCheat\\.github\\Fortnite-External\\Fortnitet-Aimbot\\AIMBOT\\Auth\\ValorantAuth.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nick\\Desktop\\FortniteExternalCheat-main\\FortniteExternalCheat\\.github\\Fortnite-External\\Fortnitet-Aimbot\\AIMBOT\\Auth\\ValorantAuth.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'RestSharp' 106.11.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-9pq7-rcxv-47vq",
+      "projectPath": "C:\\Users\\nick\\Desktop\\FortniteExternalCheat-main\\FortniteExternalCheat\\.github\\Fortnite-External\\Fortnitet-Aimbot\\AIMBOT\\Auth\\ValorantAuth.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nick\\Desktop\\FortniteExternalCheat-main\\FortniteExternalCheat\\.github\\Fortnite-External\\Fortnitet-Aimbot\\AIMBOT\\Auth\\ValorantAuth.csproj",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
