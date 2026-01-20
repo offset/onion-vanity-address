@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ValorantAuth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d3013d12191b954d0ba2ace0a7c61183212546c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38bd3d709dae898ae464526cf1be467ae668939e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ValorantAuth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ValorantAuth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
